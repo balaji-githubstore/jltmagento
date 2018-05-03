@@ -16,7 +16,7 @@ import com.ustglobal.pageobjects.MainPage;
 public class BaseTest {
 	@Test
 	public void runTest() throws InterruptedException {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 123
 
 		WebDriver driver = new InternetExplorerDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
