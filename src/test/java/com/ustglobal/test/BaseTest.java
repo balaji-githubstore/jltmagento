@@ -18,7 +18,7 @@ public class BaseTest {
 	public void runTest() throws InterruptedException {
 		// TODO Auto-generated method stub 123
 
-		WebDriver driver = new InternetExplorerDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://magento.com");
